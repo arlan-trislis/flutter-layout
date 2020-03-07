@@ -4,7 +4,6 @@ Dibawah ini adalah contoh penggunaan container widget pada flutter <br><br>
 <b>main.dart</b> <br><br>
 Pada class main.dart tambahkan code seperti dibawah ini:
 <pre>
-<code>
 import 'package:flutter/material.dart';
 void main() {
   runApp(container());
@@ -29,12 +28,10 @@ class container extends StatelessWidget {
     );
   }
 }
-</code>
 </pre>
 <br><br>
 Ketika kita jalankan aplikasi, maka akan tampak seperti diatas. Kita dapat melihat container memiliki warna biru terang dengan tinggi (heigt) 300px dan lebah (width) 300px. Syntax yang di gunakan untuk tampilan container seperti diatas terletak pada bagian dibawah ini:
 <pre>
-<code>
 body: Container(
           color: Colors.black,
           child: Text("My Container"),
@@ -46,5 +43,4 @@ body: Container(
             color: Colors.lightBlue,
           ),
         ),
-</code>
 </pre>
