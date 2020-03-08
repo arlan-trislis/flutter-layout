@@ -40,8 +40,9 @@ class MyApp extends StatelessWidget {
   }
 }
 </pre>
-
-<br><br>
+<br>
+<img src="img/2.png" width="200">
+<br>
 Pada gambar di atas dapat kita melihat bahwa penggunaan row dan column dengan menggunakan widget text. Untuk menggunakan row kita cukup menggunakan widget row() dan didalamnya kita dapat menambahkan beberapa properti sesuai dari yang kita inginkan. <br><br>
 Pada code diatas, body dari tampilan tersebut dibuat dengan row, yakni dengan menempatkan semua widget berada di tengah-tengan. <br><br>
 Fungsi dari syntax mainAxisAlignment: MainAxisAlignment.center, adalah untuk menempatkan semua widget berada di tengah-tengah. <br><br>
