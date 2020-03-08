@@ -30,6 +30,8 @@ class container extends StatelessWidget {
 }
 </pre>
 <br><br>
+<img src="img/1.png" width="400">
+<br><br>
 Ketika kita jalankan aplikasi, maka akan tampak seperti diatas. Kita dapat melihat container memiliki warna biru terang dengan tinggi (heigt) 300px dan lebah (width) 300px. Syntax yang di gunakan untuk tampilan container seperti diatas terletak pada bagian dibawah ini:
 <pre>
 body: Container(
