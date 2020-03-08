@@ -40,3 +40,28 @@ class MyApp extends StatelessWidget {
   }
 }
 </pre>
+
+<br><br>
+Pada gambar di atas dapat kita melihat bahwa penggunaan row dan column dengan menggunakan widget text. Untuk menggunakan row kita cukup menggunakan widget row() dan didalamnya kita dapat menambahkan beberapa properti sesuai dari yang kita inginkan. <br><br>
+Pada code diatas, body dari tampilan tersebut dibuat dengan row, yakni dengan menempatkan semua widget berada di tengah-tengan. <br><br>
+Fungsi dari syntax mainAxisAlignment: MainAxisAlignment.center, adalah untuk menempatkan semua widget berada di tengah-tengah. <br><br>
+Syntax untuk menampilkan row dan column terletak pada bagian dibawah ini:
+<pre>
+body: Row(
+  mainAxisAlignment: MainAxisAlignment.center,
+  children: &lt;Widget>[
+    Text('This'),
+    Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: &lt;Widget>[
+        Text('This'),
+        Text('is'),
+        Text('Column'),
+      ],
+    ),
+    Text('Row')
+  ],
+),
+</pre>
+<br><br>
+Agar kita dapat menggunakan beberapa widget didalam row maupun column kita perlu menambahkan properti <b>children : widget[]</b> dengan menggunakan properti ini kita dapat menambahkan widget lebih dari satu karena ia berbentuk array.
