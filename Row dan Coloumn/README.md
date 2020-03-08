@@ -22,11 +22,11 @@ class MyApp extends StatelessWidget {
         ),
         body: Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: &lt;Widget&lg;[
+          children: &lt;Widget>[
             Text('This'),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: &lt;Widget&lg;[
+              children: &lt;Widget>[
                 Text('This'),
                 Text('is'),
                 Text('Column'),
